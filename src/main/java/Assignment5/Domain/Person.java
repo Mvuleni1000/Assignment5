@@ -5,8 +5,5 @@ package Assignment5.Domain;
  */
 public interface Person {
     
-    String name();
-    String surname();
-    String Address();
-    String contactDetails();
+   public String getPersonType(String person);
 }
